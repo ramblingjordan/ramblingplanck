@@ -1,0 +1,51 @@
+{
+    "env": {
+        "buildToolsPath": "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.30.30705",
+        "windowsKitsPath": "C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0"
+    },
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${buildToolsPath}/include/*",
+                "${buildToolsPath}/atlmfc/include/*",
+                "${buildToolsPath}/um",
+                "${buildToolsPath}/ucrt",
+                "${buildToolsPath}/shared",
+                "${buildToolsPath}/winrt",
+                "${buildToolsPath}/include",
+                "C:/QMK_MSYS/mingw64/avr/include/**",
+                "C:/QMK_MSYS/mingw64/lib/gcc/avr/8.4.0/include/**",
+                "C:/QMK_MSYS/mingw64/lib/gcc/avr/8.4.0/include-fixed/**",
+                "C:/QMK_MSYS/mingw64/arm-none-eabi/include/**",
+                "C:/QMK_MSYS/mingw64/lib/gcc/arm-none-eabi/10.1.0/include/**",
+                "${workspaceFolder}/**"
+                // "${workspaceFolder}/quantum/**",
+                // "${workspaceFolder}/tmk_core/common/**",
+                // "${workspaceFolder}/quantum/audio/**",
+                // "${workspaceFolder}/quantum/process_keycode/**",
+                // "${workspaceFolder}/drivers/avr/**",
+                // "${workspaceFolder}/lib/chibios/**",
+                // "${workspaceFolder}/lib/lufa/**"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${buildToolsPath}/include/*",
+                    "${buildToolsPath}/atlmfc/include/*",
+                    "${buildToolsPath}/um",
+                    "${buildToolsPath}/ucrt",
+                    "${buildToolsPath}/shared",
+                    "${buildToolsPath}/winrt",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
